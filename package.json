@@ -4,7 +4,6 @@
   "description": "object change tracker based on ES6 proxies",
   "main": "index.js",
   "scripts": {
-    "pretest": "standard",
     "precommit": "npm test",
     "test": "ava",
     "tdd": "ava -w"
@@ -29,11 +28,13 @@
   },
   "homepage": "https://github.com/capaj/proxevable#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.32",
     "ava": "^0.14.0",
     "benchmark": "^2.1.0",
     "husky": "^0.11.4",
     "mobx": "^2.1.6",
-    "standard": "^7.0.1"
+    "ts-node": "^1.2.3",
+    "typescript": "^2.0.0"
   },
   "dependencies": {
     "lodash": "^4.12.0"
